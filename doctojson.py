@@ -116,7 +116,7 @@ def convert(docx_file, output_file):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--input", required=True)
-    parser.add_argument("--output", default="dataset_tables.jsonl")
+    parser.add_argument("--output", default="dataset_tables_1.jsonl")
 
     args = parser.parse_args()
 
